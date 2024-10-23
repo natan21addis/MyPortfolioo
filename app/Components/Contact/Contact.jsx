@@ -45,7 +45,7 @@ const Contact = () => {
             Get in touch or shoot me an email directly on{" "}
             <span
               onClick={() =>
-                (window.location = "mailto:nataddis21@gmail.com")
+                (window.location = "nataddis21@gmail.com")
               }
             >
               abelbeworking245@gmail.com
