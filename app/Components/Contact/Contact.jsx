@@ -42,13 +42,13 @@ const Contact = () => {
         <div className={styles.text}>
           <h2>Contact.</h2>
           <p>
-            Get in touch or shoot me an email directly on{" nataddis21@gmail.com"}
+            Get in touch or shoot me an email directly on{" "}
             <span
               onClick={() =>
                 (window.location = "mailto:nataddis21@gmail.com")
               }
             >
-              abelbeworking245@gmail.com
+              nataddis21@gmail.com
             </span>
           </p>
         </div>
