@@ -9,6 +9,7 @@
   margin: auto; /* Center the card */
 }
 
+
 .contact span {
   cursor: pointer;
   color: var(--purple-main);
