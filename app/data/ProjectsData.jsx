@@ -42,19 +42,14 @@ const projectsData = [
         ,
         ],
         images: [
-          "/Assests/contact-hub/1.avif",
-          "/Assests/contact-hub/2.png",
-          "Assests/contact-hub/2.png",
-          "Assests/contact-hub/2.png",
+          "/Assests/contact_hub/1.avif",
+          "/Assests/contact_hub/2.png",
+          "/Assests/contact_hub/2.png",
+          "/Assests/contact_hub/2.png",
 
         ],
       },
-      {
-        title: "Implementation Details",
-        content: [
-          'Manga verse incorprates a microservice architecture with Kian Api and pupperteer. The first part uses Jiakn API to retrieve data. From Jikan API, data like title,author,summary,manga cover, for all manga is retrieved.Using the title retrieved from Jikan Api, the second part of the app "the scraper" runs. The scarper takes the title of the manga and using puppeteer scrapes a specific app and finds and returns a manga with a matching title. The data that is returend from the scarper is only the manga chapter list and the images of each chapter.',
-        ],
-      },
+      
       {
         title: "Lessons Learned",
         content: [
@@ -74,7 +69,9 @@ const projectsData = [
 
           " 1. Convert most components to server-side components.By migrating a majority of the components to server-side rendering, I can take advantage of suspense boundaries to enhance the overall performance of the application. Additionally, server-side components provide automatic caching, which further improves performance by reducing unnecessary data fetching.",
 
-          " 2. Enhance dynamic filtering.  Currently, the filtering functionality allows users to filter by only one variable at a time, such as genre, popularity, or status. To enhance the user experience, I plan to implement a more dynamic filtering system that enables users to apply multiple filters simultaneously.",
+          " 2. Enhance dynamic filtering.  ",
+          "3,importing and exporting contacts from different sources",
+          "3,live chat with contacts"
         ],
       },
     ],
