@@ -1,0 +1,30 @@
+.typeEffect {
+  color: var(--purple-main);
+  font-size: 3rem;
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .typeEffect {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width:768px) and (max-width: 970px) {
+  .typeEffect {
+    font-size: 2.4rem;
+  }
+}
+
+@media (min-width:971px) and (max-width: 1200px) {
+  .typeEffect {
+    font-size: 2.6rem;
+  }
+}
+
+@media (min-width:1800px){
+  .typeEffect{
+    font-size: 5rem;
+    padding-top: 50px;
+  }
+}

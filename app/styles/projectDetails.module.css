@@ -1,0 +1,111 @@
+
+
+
+.projectDetails{
+    margin:80px 140px 100px 140px ;
+    
+    } 
+    
+    .projectDetails p{
+        font-size: 1.2rem;
+        line-height: 27px;
+        padding-bottom: 20px;
+    
+    }
+    .projectDetails ul{
+      list-style-position: inside;
+
+    }
+    .projectDetails li{
+      font-size: 1.2rem;
+      line-height: 27px;
+
+    }
+    
+    .top{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:15px;
+        justify-content: center;
+        color: var(--text-white);
+        padding-bottom: 50px;
+        font-size: 1.8rem;
+    
+    }
+    
+    .subSection{
+        padding-bottom: 45px;
+        color: var(--text-white);
+    }
+    
+    .subSection h3{
+        padding-bottom: 10px;
+        font-size: 1.4rem;
+    
+    }
+    
+    
+    
+    
+    .imgContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 400px;
+        flex-shrink: 0;
+      }
+      
+      .img{  
+        object-fit: cover; 
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+      
+      }
+
+      .imgSpacing{
+        padding-bottom: 40px;
+      }
+      
+      .btns {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+      }
+      .projectDetails button {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #fff;
+        background-color: #623686;
+        border:none ;
+        padding: 6px 12px;
+        font-size: 1rem;
+        text-decoration: none;
+      }
+      
+      .projectDetails button:hover {
+        color: #fff;
+        background-color: #6d20c5d7;
+        border-color: #6d20c5d7;
+      }
+      
+    @media (max-width:767px){
+        .projectDetails{
+            margin: 200px 30px 100px 30px;
+        }
+        .top{
+            font-size: 1.6rem;
+        }
+        .subSection h3{
+            font-size: 1.4rem;
+        }
+    }
+    
+    
+    
+    
+    

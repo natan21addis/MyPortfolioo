@@ -1,0 +1,167 @@
+.intro {
+  margin: 0px 140px;
+}
+.purple {
+  color: var(--purple-main);
+  font-weight: 400;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  /* align-self: center; */
+  padding-bottom: 35px;
+  font-weight: 400;
+}
+
+.intro p {
+  font-size: 1.25rem;
+  padding-bottom: 40px;
+  line-height: 30px;
+}
+
+.introMain {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.socials {
+  padding: 40px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.socials h2 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.socials p {
+  font-size: 1.2rem;
+}
+
+.icons {
+  display: flex;
+  gap: 25px;
+}
+
+.icons i {
+  color: var(--purple-dark);
+  background-color: var(--text-white);
+  border-radius: 50%;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 2em;
+  background: rgba(255, 255, 255, 0.972);
+  border-radius: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+
+}
+
+.icons i::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #68187a;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.icons i:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #801f95;
+}
+
+.icons i:hover {
+  color: #87209e;
+  box-shadow: 0 0 5px #87209e;
+  text-shadow: 0 0 2px #87209e;
+}
+
+
+.imgContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  flex-shrink: 0;
+}
+
+.img{  
+  object-fit: cover; 
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+
+
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    margin: 0px;
+  }
+  .introMain {
+    display: flex;
+    flex-direction: column;
+  }
+  .intro h1 {
+    font-size: 2rem;
+  }
+  .socials h2 {
+    font-size: 2rem;
+  }
+  .socials p {
+    font-size: 1rem;
+  }
+  .img{
+    padding: 50px;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .intro{
+    margin: 0px 50px;
+  }
+  .introMain {
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:1800px){
+  .intro p,.socials p{
+    font-size: 2rem;
+  }
+  .intro h1,.socials h2{
+    font-size: 4rem;
+  }
+
+  .icons i{
+    font-size: 2rem;
+  }
+  .intro p{
+    line-height: 40px;
+  }
+
+  .intro h1{
+    padding-bottom: 100px;
+  }
+}

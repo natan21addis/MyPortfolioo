@@ -1,0 +1,9 @@
+.about{
+    margin: 0px 140px;
+} 
+
+@media (max-width:1023px){
+    .about{
+        margin:0px 50px;
+    }
+}
