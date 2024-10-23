@@ -83,7 +83,7 @@ const projectsData = [
   "id": 2,
   "title": "book ambulance",
   "githubLink": "https://github.com/natan21addis/EmeregencyContact",
-  "demoLink": "https://my-portfolioo-mu.vercel.app/",
+  "demoLink": "https://emeregency-contact-wsxy.vercel.app/",
   "description": " The Hearts ambulance booking site is designed for HEARTS Company, allowing users to book or call for an ambulance during emergencies. Founded in 2023, HEARTS aims to serve the Ethiopian community by addressing critical challenges faced during emergencies, such as pregnancy complications and heart attacks e.tc. medcical problems. This platform will provide a vital solution to ensure timely medical assistance when it’s needed most",
   "ImageSrc": "/Assests/blogz/Screenshot 2023-08-18 135956.png",
   "sections": [
