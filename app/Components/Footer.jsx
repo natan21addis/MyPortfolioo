@@ -17,7 +17,7 @@ const Footer = () => {
         <AiFillGithub />
         </a>
 
-        <a target="_blank" href="https://www.linkedin.com/in/abel-bekele-meaza/" aria-label="Contact me via Telegram">
+        <a target="_blank" href="@A_natan" aria-label="Contact me via Telegram">
         <GrLinkedinOption />
         </a>
 
