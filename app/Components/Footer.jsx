@@ -17,9 +17,7 @@ const Footer = () => {
         <AiFillGithub />
         </a>
 
-        <a target="_blank" href="@A_natan" aria-label="Contact me via Telegram">
-        <GrLinkedinOption />
-        </a>
+     
 
         <a target="_blank" href="mailto:natan21@gmail.com.com" aria-label="Email me">
         <BiLogoGmail/>
