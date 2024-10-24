@@ -9,19 +9,19 @@ const Footer = () => {
   
   return (
     <div className={styles.footer}>
-      <span className={styles.footerDetails}>Developed by Abel Bekele Meaza</span>
-      <span>Copyright © 2023 switch247</span>
+      <span className={styles.footerDetails}>Developed by Natan addis abebe</span>
+      <span>Copyright © 2023 @natan_A</span>
       <div className={styles.footerIcons}>
        
-        <a target="_blank" href="https://github.com/switch247" aria-label="See my GitHub account">
+        <a target="_blank" href="https://github.com/natan21addis" aria-label="See my GitHub account">
         <AiFillGithub />
         </a>
 
-        <a target="_blank" href="https://www.linkedin.com/in/abel-bekele-meaza/" aria-label="See my LinkedIn account">
+        <a target="_blank" href="https://www.linkedin.com/in/abel-bekele-meaza/" aria-label="Contact me via Telegram">
         <GrLinkedinOption />
         </a>
 
-        <a target="_blank" href="mailto:izzyabenabrown@gmail.com" aria-label="Email me">
+        <a target="_blank" href="mailto:natan21@gmail.com.com" aria-label="Email me">
         <BiLogoGmail/>
         </a>
 
